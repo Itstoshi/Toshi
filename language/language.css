@@ -1,0 +1,168 @@
+body {
+    font-family: "Poppins";
+    font-weight: bold;
+    color: white;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #021920, #121013, #7a717a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hover-btn {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.hover-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-item {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+.container-progress-tech {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.html {
+    display: inline-flex;  
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}
+
+.progress-container-html {
+    width: 350px;
+    max-width: 400px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    margin: 20px auto;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+    margin-left: 20px;  
+}
+
+.progress-bar-html {
+    height: 100%;
+    width: 100%; /* Change this value to your percentage */
+    background-color: #28a745;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    transition: width 0.4s ease;
+}
+
+.css {
+    display: inline-flex;
+}
+
+.progress-container-css {
+    width: 350px;
+    max-width: 400px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    margin: 20px auto;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+    margin-left: 20px;
+}
+
+.progress-bar-css {
+    height: 100%;
+    width: 30%; /* Change this value to your percentage */
+    background-color: #28a745;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    transition: width 0.4s ease;
+}
+
+.bootstrap {
+    display: inline-flex;
+}
+
+.progress-container-bootstrap {
+    width: 350px;
+    max-width: 400px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    margin: 20px auto;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+    margin-left: 20px;
+}
+
+.progress-bar-bootstrap {
+    height: 100%;
+    width: 70%; /* Change this value to your percentage */
+    background-color: #28a745;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    transition: width 0.4s ease;
+}
+
+.javascript {
+    display: inline-flex;
+}
+
+.progress-container-js {
+    width: 350px;
+    max-width: 400px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    margin: 20px auto;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+    margin-left: 20px;
+}
+
+.progress-bar-js {
+    height: 100%;
+    width: 100%; /* Change this value to your percentage */
+    background-color: #e0e0e0;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 30px;
+    transition: width 0.4s ease;
+}

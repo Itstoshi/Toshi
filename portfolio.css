@@ -1,0 +1,453 @@
+body {  
+  font-family: "Poppins";
+  font-weight: bold;
+  color: white;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #423434, #3f1c3b, #534952, #0a020a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-font {
+  z-index: 999;
+  background-color: rgba(#000000, #0f0c3a, #0f0a49);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+}
+
+.btn-gradient {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(182deg, #000000, #0f0c3a, #0f0a49);
+  background-size: 300%;
+  transition: background-position 0.5s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-gradient:hover {
+  background-position: right;
+}
+
+.nav-btn-gradient {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(100deg, #9e0c0c00, #5e464600, #575658, #685050);
+  background-size: 300%;
+  transition: background-position 0.5s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn-gradient:hover {
+  background-position: right;
+}
+
+#home {
+  margin-top: 200px;
+  width: 100%;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-context {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
+.container-projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.devintro{
+  font-size: 3.5rem;
+}
+
+.devintro2 {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-bottom: 17px
+}
+
+.skills-context h2, .skills-context p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.parag {
+  display: flex;
+  justify-content: center;
+}
+
+.container-progress-tech {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-progress-bar{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.html {
+  display: inline-flex;  
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.profile {
+  border-radius: 290px;
+  box-shadow: 0 0 30px rgb(26, 25, 29);
+  transition: box-shadow 0.3s ease;
+}
+
+.progress-container-html {
+  width: 350px;
+  max-width: 400px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  margin-left: 20px;  
+}
+
+.progress-bar-html {
+  height: 100%;
+  width: 100%; /* Change this value to your percentage */
+  background-color: #28a745;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 30px;
+  transition: width 0.4s ease;
+}
+
+.css {
+  display: inline-flex;
+}
+
+.progress-container-css {
+  width: 350px;
+  max-width: 400px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  margin-left: 20px;
+}
+
+.progress-bar-css {
+  height: 100%;
+  width: 30%; /* Change this value to your percentage */
+  background-color: #28a745;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 30px;
+  transition: width 0.4s ease;
+}
+
+.bootstrap {
+  display: inline-flex;
+}
+
+.progress-container-bootstrap {
+  width: 350px;
+  max-width: 400px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  margin-left: 20px;
+}
+
+.progress-bar-bootstrap {
+  height: 100%;
+  width: 70%; /* Change this value to your percentage */
+  background-color: #28a745;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  line-height: 30px;
+  transition: width 0.4s ease;
+}
+
+.javascript {
+  display: inline-flex;
+}
+
+.progress-container-js {
+  width: 350px;
+  max-width: 400px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  margin-left: 20px;
+}
+
+.progress-bar-js {
+  height: 100%;
+  width: 100%; /* Change this value to your percentage */
+  background-color: #e0e0e0;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+  transition: width 0.4s ease;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-bg {
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+}
+
+.card {
+  backdrop-filter: blur(30px);
+  background-color: #02192042;
+  color: white;
+  margin: 30px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  height: 165px;
+}
+
+.fb-img {
+  width: 200px;
+}
+
+.gmail-img {
+  padding: 65px ;
+  margin: 40px;
+}
+
+.contacting {
+  display: flex;
+  justify-content: center;
+}
+
+.container-contact {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.facebook {
+  margin: 40px;
+}
+
+.instagram {
+  margin: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .blur {
+    width: 500px;
+    transform: scale(0.7);
+    margin-left: -30px;
+  }
+
+  .home {
+    transform: scale(0.7);
+    margin-top: -125px;
+  }
+
+  .skills-context {
+    margin-top: 170px;
+    text-align: center;
+  }
+  
+  .container-progress-tech {
+    transform: scale(0.8);
+    margin-left: -10px;
+  }
+  
+  .container-progress-bar {
+    transform: scale(0.8);
+  }
+  
+  .project-context {
+    transform: scale(0.7);
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container-projects {
+    transform: scale(0.6);
+    flex-direction: column;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 25px;
+  }
+
+  .contacting {
+    transform: scale(0.7);
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+  }
+
+  .container-contact {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gmail {
+    margin-top: -20px;
+  }
+
+  .facebook {
+    margin-top: -40px;
+  }
+
+  .instagram {
+    margin-top: -40px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .home {
+    transform: scale(0.8);
+    margin-top: -130px;
+  }
+
+  .skills-context {
+    margin-top: 170px;
+  }
+
+  .container-progress-tech {
+    transform: scale(0.9);
+  }
+
+  .project-context {
+    transform: scale(0.7);
+    font-weight: bold;
+    margin-top: 100px;
+  }
+
+  .container-projects {
+    display: flex;
+    transform: scale(0.7);
+    flex-direction: column;
+    align-items: center;
+    margin-top: -190px;
+  }
+
+  .contacting {
+    transform: scale(0.8);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-contact {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gmail {
+    margin-top: -20px;
+  }
+
+  .facebook {
+    margin-top:-40px;
+  }
+
+  .instagram {
+    margin-top: -40px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .home {
+    transform: scale(0.7);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home {
+    margin-top: 100px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home {
+    margin-top: -0px;
+  }
+
+  .skills-context {
+    margin-top: 100px;
+  }
+  
+  .container-projects {
+    display: flex;
+    transform: scale(0.9);
+    flex-direction: row;
+    margin-top: 70px;
+  }
+}

@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.tittle {
+    margin-left: 90px;
+    color: green;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.best {
+    font-size: 3.5rem;
+    color: midnightblue;
+}
+
+.welcome {
+    font-size: 2.5rem;
+    margin-left: 200px;
+}
+
+.sea {
+    margin-top: -10px;
+}
+
+.heart1 {
+    margin-top: -9px;
+}
+
+.sec1 {
+    float: left;
+    margin-left: 50px;
+}
+
+.sec2 {
+    float: left;
+    margin-left: 50px;
+}
+
+.sec3 {
+    float: left;
+    margin-left: 50px;
+}
+
+.sec4 {
+    float: left;
+    margin-left: 50px;
+}
+
+footer {
+    color: midnightblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 680px) {}
+
+    .tittle {
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+
+    .best {
+        font-size: 2rem;
+        margin-left: 0px;
+    }
+
+    .welcome {
+        font-size: 2rem;
+        margin-left: 0px;
+    }
+
+    .sec1 {
+        float: left;
+    }
+
+    .sec2 {
+        float: left;
+    }
+
+    .sec3 {
+        float: left;
+    }
+
+    .sec4 {
+        float: left;
+    }
+
+    footer {
+        color: midnightblue;
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+    
